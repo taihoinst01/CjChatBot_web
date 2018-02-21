@@ -174,18 +174,11 @@ body .wc-app, .wc-app button, .wc-app input, .wc-app textarea {
   padding-right: 8px; }
 
 .wc-message svg.wc-message-callout {
-    background: url("../image/cj_chatbot.png") no-repeat;
-    width: 50px;
-    height: 58px;
-    display: inline-block;
-    position: fixed;
-    background-size:70%;
-    margin:-5px 0 0 11px
-    /*height: 22px;
+    height: 22px;
     position: absolute;
     stroke: none;
     top: 12px;
-    width: 6px;*/
+    width: 6px;
 }
 
 .wc-message-content {
@@ -423,7 +416,15 @@ body .wc-app, .wc-app button, .wc-app input, .wc-app textarea {
   display: none; }
 
 .wc-message-from-bot svg.wc-message-callout {
-  left: -6px; }
+    left: -6px;
+    background: url("../image/cj_chatbot.png") no-repeat 0 0;
+    width: 50px;
+    height: 58px;
+    display: inline-block;
+    background-size: 70%;
+    margin-top:-12px;
+    left:-45px;
+}
 
 /* console */
 .wc-console > * {
