@@ -1,6 +1,7 @@
 ﻿.mainBG {
     background: url(../image/cj_bg01.png) no-repeat center 0;
-    background-attachment:fixed;
+    background-attachment: fixed;
+    width: 100%;
 }
 .chatBG {
     background: url(../image/cj_chatCover.png) no-repeat;
